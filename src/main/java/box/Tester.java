@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Tester {
     public static void main(String[] args) {
+        Box3 Box3 = new Box3();
+        Box5 Box5 = new Box5();
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter length");
         int length = Integer.parseInt(scan.next());
